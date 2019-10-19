@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://www.constructionweekonline.com/sites/default/files/cwo/images/2019/04/03/Worlds-largest-sports-mall-Dubai-construction-UAE-Khansaheb-2019-progress.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-attachment: fixed;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border:solid aqua 2px ;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 800px 500px 0 600px;
+    color: aqua;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .main-container {
+            display: flex;
+            flex-direction: row;
+        }
+        .reg-cont {
+            width: 700px;
+            margin: 0 auto 100px;
+        }
+        .reg-cont form input {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding: 6px;
+            margin-top: 7px; 
+        }
+        .reg-cont form label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-contaner">
+        <div style="padding: 40px; background-color: rgb(47, 27, 230); display: inline-block; width: 1300px;" ></div>
+        <hr>
+        <div
+        style="
+        padding: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        ">
+            Create Your Accaunt
+        </div>
+        <div class="reg-cont">
+            <form action="" method="GET">
+                <label for="Name"> Name:</label>
+                <input
+                style="margin-left: 93px"
+                id="Name"
+                 type="text"
+                 placeholder="Name"
+                 name="Name"
+                 required
+                 >
+                 <br>
+                 <label for="Surname"> Surname:</label>
+                 <input
+                 style="margin-left: 71px"
+                 id="Surname"
+                 type="text"
+                 placeholder="Surname"
+                 name="Surname"
+                 required
+                 >
+                 <br>
+                 <label for="Username"> Username:</label>
+                <input
+                 style="margin-left: 62px"
+                 id="Username"
+                 type="text"
+                 placeholder="Username"
+                 name="Username"
+                 required
+                 >
+                 <br>
+                 <label for="Password"> Password:</label>
+                <input
+                 style="margin-left: 65px"
+                 id="Password"
+                 type="password"
+                 placeholder="Password"
+                 name="Password"
+                 required
+                 >
+                 <br>
+                 <label for="RepeatPassword"> Repeat Password:</label>
+                <input
+                 style="margin-left: 9px"
+                 id="RepeatPassword"
+                 type="password"
+                 placeholder="RepeatPassword"
+                 name="RepeatPassword"
+                 required
+                 >
+                 <br>
+                 <span style="font-family: Arial, Helvetica, sans-serif"
+                 >Birthday:</span>
+                 <input type="date" value="bday" style="margin-left: 77px">
+                 <br>
+                 <span style="font-family: Arial, Helvetica, sans-serif"
+                 > E-mail:</span>
+                 <input type="email" name="email" style="margin-left: 89px">
+                 <br>
+                 <span style="font-family: Arial, Helvetica, sans-serif"
+                 > Select a File:</span>
+                 <input type="file" name="myFile" style="margin-left: 42px">
+                 <br> <span style="font-family: Arial, Helvetica, sans-serif">
+                 Telephone: </span><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <span>Format: 123-45-678</span>
+                 <br>
+                 <label for="Male"> Male
+                     <input type="radio" name="gender" value="Male" id="Male">
+                 </label>
+                 <label for="Female">Female
+                     <input type="radio" name="gender" value="Female" id="Female">
+                 </label>
+                 <label for="Other">Other
+                     <input type="radio" name="gender" value="Other" id="Other">
+                 </label>
+                 <input type="color" name="theme-color">
+                 <input type="checkbox" name="agreement">I Agree 
+                 <br><br>
+                 <input type="reset">
+                 <input type="submit" onclick="alert('You Have Created New Accaunt')">
+            </form>
+        </div>
+        <hr>
+        <div style="padding: 40px; background-color: rgb(47, 27, 230); display: inline-block; width: 1300px;" ></div>
+    </div>
+</body>
+</html>
